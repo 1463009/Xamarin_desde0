@@ -14,5 +14,10 @@ namespace LIS_Xamarin
         {
             InitializeComponent();
         }
+
+        private void Button_Login(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
     }
 }
